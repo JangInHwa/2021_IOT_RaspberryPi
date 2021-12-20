@@ -1,0 +1,44 @@
+body {
+	background-color: #1f1f1e;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 4rem;
+}
+
+.result-box {
+	background-color: #2f2f2e;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 90vw;
+	height: 70%;
+	padding: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	width: 13vw;
+	height: 16vw;
+	border-radius: 12px;
+	margin: 1vw;
+}
+
+img:hover {
+	animation-duration: 0.8s;
+	animation-name: getBigger;
+	transform: scale(1.1);
+}
+
+@keyframes getBigger {
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(1.1);
+	}
+}
